@@ -4,5 +4,42 @@ title: {{ site.name }}
 ---
 
 <div id="home">
-  <h1>Blog Posts</h1>
+  <a href="#intro"><h2>Intro</h2></a>
+
+  This organization includes a collection of libraries that perform basic image
+  processing routines on
+  <a href="http://dask.pydata.org/en/latest/array.html">Dask arrays</a>. Using
+  Dask arrays makes it easier define computations that work out-of-core. Also
+  it makes it easier to parallelize Python code without having to leave
+  Python.
+
+  <br>
+  <br>
+
+  <a href="#purpose"><h2>Purpose</h2></a>
+
+  The main objective of this organization is to provide a reasonable subset of
+  functions from SciPy's
+  <a href="https://docs.scipy.org/doc/scipy/reference/ndimage.html">ndimage</a>
+  package implemented so as to work with Dask arrays. The implementations here
+  do this by either wrapping the existing SciPy ndimage functions or by
+  reimplementing them with equivalent operations on Dask arrays. In either
+  case, their results are tested against equivalent functions from SciPy
+  ndimage to ensure they are being faithfully reproduced.
+
+  <br>
+  <br>
+
+  <a href="#caveats"><h2>Caveats</h2></a>
+
+  While the initial goal is to provide Dask array implementations of all of
+  these functions, libraries may be released before having implemented all
+  functions, or all options to all functions, or without applying some
+  constraints to the functions. This is done because this is seen as an
+  incremental work that is driven by research needs. That said, the goal is to
+  have feature complete implementations of these functions in the end.
+
+  <br>
+  <br>
+
 </div>
