@@ -37,6 +37,10 @@ Open [`http://localhost:4000`]( http://localhost:4000 ) in your browser.
 
 Bug reports and pull requests are welcome at [https://github.com/dask-image/dask-image.github.io][6] on GitHub.
 
+# License
+
+This work is licensed under a [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/) license. Some of the content comes from [@jasonlong][2]'s great [Cayman theme][4], which is also under the same the license.
+
 [1]: http://jekyllrb.com/
 [2]: https://github.com/jasonlong
 [3]: http://pages.github.com/
