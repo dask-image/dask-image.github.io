@@ -1,13 +1,13 @@
 # Setup
-title:        Project or Site name
-tagline:      A responsive theme for your project on GitHub Pages
+title:        dask-image
+tagline:      A collection of libraries to use with Dask for image processing
 baseurl:      ""
 paginate:     1
 
 # About/contact
 author:
-  name:       Author name
-  url:        http://yourhomepage.com 
+  name:       dask-image developers
+  url:        https://github.com/dask-image
 
 # Gems
 gems:
