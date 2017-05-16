@@ -1,6 +1,12 @@
 ---
 layout: default
 title: {{ site.name }}
+libraries:
+  - dask-ndfilters
+  - dask-ndfourier
+  - dask-ndinterp
+  - dask-ndmeasure
+  - dask-ndmorph
 ---
 
 <div id="home">
@@ -38,6 +44,24 @@ title: {{ site.name }}
   constraints to the functions. This is done because this is seen as an
   incremental work that is driven by research needs. That said, the goal is to
   have feature complete implementations of these functions in the end.
+
+  <br>
+  <br>
+
+  <a href="#libraries"><h2>Libraries</h2></a>
+
+  Below is a list of the libraries that implement the different sets of
+  functions from SciPy ndimage with Dask arrays. Links to their repos are
+  provided so that more info about them can be found.
+
+  <br>
+  <br>
+
+  <ul>
+    {% for lib in page.libraries %}
+    <li><a href="https://github.com/dask-image/{{ lib }}">{{ lib }}</a></li>
+    {% endfor %}
+  </ul>
 
   <br>
   <br>
